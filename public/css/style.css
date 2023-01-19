@@ -1,0 +1,291 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+header img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header input {
+    border: none;
+    border-bottom: 1px solid #0282f9;
+}
+
+.comics a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 5px solid #0282f9;
+}
+
+
+.blue {
+    width: 100%;
+    height: 40px;
+    background-color: #0282f9;
+    color: white;
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+
+}
+
+.blue h6 {
+
+    font-weight: bold;
+}
+
+.head {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+/* end header, im using css cause scss is not working */
+
+/* Jumbotron  */
+
+#jumbotron {
+    background-image: url(../images/jumbotron.jpg);
+    height: 450px;
+
+    background-size: cover;
+
+}
+
+/* end jumbotron  */
+
+/* main series  */
+
+.main-series {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    margin: auto;
+    padding: 1rem 0rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.main-series div {
+    width: calc(100% / 6);
+}
+
+.main-series div img {
+    height: 200px;
+    aspect-ratio: 1/1;
+    margin-top: 50px;
+}
+
+#main {
+    background-color: #1c1c1c;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.btn-blue {
+    background-color: #0282f9;
+    color: white;
+    border: none;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+}
+
+.p-2 {
+    padding: 20px;
+}
+.blue3 img {
+    max-width: 5%;
+    max-height: 100px;
+    display: flex;
+
+}
+
+
+/* blue part main */
+.blue3 {
+    height: 140px;
+    background-color: #0282f9;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+/* fine main page 1 */
+
+/* current series position  */
+
+.btn-position {
+    position: absolute;
+    top: 35rem;
+    left: 23rem;
+}
+
+.img-position {
+    position: absolute;
+    top: 24rem;
+    left: 23rem;
+}
+.bigger {
+    width: 300px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+
+/* page2 comics line blue */
+
+.blue2 {
+    height: 80px;
+}
+
+
+
+/* comics page */
+
+.comicspage {
+    display: inline-block;
+    margin-top: 5rem;
+    font-size: larger;
+    text-align: left;
+}
+
+.w-100 h2 {
+    color: #0282f9;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-top: 2rem;
+
+}
+
+.green {
+    background-color: green;
+    color: white;
+    padding: 1rem 1rem;
+    width: 500px;
+    height: 60px;
+    border-left: 1px solid black;
+}
+
+.paragraph {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 90%;
+
+
+}
+
+.comics-info {
+    height: 400px;
+    width: 100%;
+    background-color: #F6F6F6;
+    border-top: 0.1px solid lightgray;
+}
+
+.comics-info-above {
+    background-color: #F6F6F6;
+}
+
+.comics-info-above img {
+    width: 60px;
+    height: 80px;
+    float: right;
+
+ }
+
+
+ .pic {
+    filter: brightness(65%);
+ }
+
+ .comics-info-above span {
+    margin-left: 20px;
+
+ }
+
+.bold {
+    font-weight: bold;
+    color: #4FB4D9;
+}
+
+.bold-2 {
+    font-weight: bold;
+    color: #a09b9b;
+}
+
+
+
+.font-color {
+    color: #376176;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.width-45 {
+    width: 45%;
+}
+
+/* footer  */
+
+.bg-image {
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
+    height: 600px;
+    padding-top:3rem;
+    padding-bottom: 5rem;
+    font-size: smaller;
+}
+
+.footer-icons {
+    background-color: #303030;
+    height: 90px;
+}
+
+
+.bg-pic-right {
+    margin-left: 1rem;
+    width: 920px;
+
+    background-repeat: no-repeat;
+    background-image: url(../images/dc-logo-bg.png);
+    background-position:top;
+
+
+}
+
+
