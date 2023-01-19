@@ -4,70 +4,70 @@
         <div class="footer-list w-75 m-auto d-flex">
             <div class="list-left">
                 <div>
-                    <ul class="text-left d-flex flex-column">
-                        <h4 class="text-white text-left p-2">DC COMICS</h4>
-                        <li class="list-unlysted p-2"><a href="#" class="nav-link  text-muted">Characters</a>
+                    <ul class="text-left d-flex flex-column text-white">
+                        <h4 class="text-white text-left ps-2">DC COMICS</h4>
+                        <li class="list-unlysted p-2"><a href="#" class="nav-link">Characters</a>
                         </li>
-                        <li class="list-unlysted p-2"><a href="#" class="nav-link  text-muted">Comics</a>
+                        <li class="list-unlysted p-2"><a href="#" class="nav-link">Comics</a>
                         </li>
-                        <li class="list-unlysted p-2"><a href="#" class="nav-link   text-muted">Movies</a>
+                        <li class="list-unlysted p-2"><a href="#" class="nav-link">Movies</a>
                         </li>
-                        <li class="list-unlysted p-2"><a href="#" class="nav-link   text-muted">TV</a></li>
-                        <li class="list-unlysted p-2"><a href="#" class="nav-link   text-muted">Games</a>
+                        <li class="list-unlysted p-2"><a href="#" class="nav-link">TV</a></li>
+                        <li class="list-unlysted p-2"><a href="#" class="nav-link">Games</a>
                         </li>
-                        <li class="list-unlysted p-2"><a href="#" class="nav-link   text-muted">Videos</a>
+                        <li class="list-unlysted p-2"><a href="#" class="nav-link">Videos</a>
                         </li>
-                        <li class="list-unlysted p-2"><a href="#" class="nav-link   text-muted">News</a>
+                        <li class="list-unlysted p-2"><a href="#" class="nav-link">News</a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <ul class="text-left d-flex flex-column">
+                    <ul class="text-left d-flex flex-column text-white">
                         <h4 class="text-white text-left p-2 ">SHOP</h4>
-                        <li class="list-unlysted p-2"><a href="#" class="nav-link   text-muted">Shop DC</a>
+                        <li class="list-unlysted p-2"><a href="#" class="nav-link">Shop DC</a>
                         </li>
-                        <li class="list-unlysted p-2"><a href="#" class="nav-link   text-muted">Shop DC
+                        <li class="list-unlysted p-2"><a href="#" class="nav-link">Shop DC
                                 Collections</a></li>
                     </ul>
                 </div>
             </div>
             <div class="list-center d-flex flex-column">
-                <ul class="text-left d-flex flex-column">
+                <ul class="text-left d-flex flex-column text-white">
                     <h3 class="text-white text-left d-flex flex-column p-2">DC</h3>
-                    <li class="list-unlysted p-2"><a href="#" class="nav-link   text-muted">Terms Of
+                    <li class="list-unlysted p-2"><a href="#" class="nav-link  ">Terms Of
                             Use</a></li>
-                    <li class="list-unlysted p-2"><a href="#" class="nav-link text-muted">Privacy
+                    <li class="list-unlysted p-2"><a href="#" class="nav-link">Privacy
                             Policy(New)</a></li>
-                    <li class="list-unlysted p-2"><a href="#" class="nav-link   text-muted">Ad Choices</a>
+                    <li class="list-unlysted p-2"><a href="#" class="nav-link">Ad Choices</a>
                     </li>
-                    <li class="list-unlysted p-2"><a href="#" class="nav-link   text-muted">Advertising</a>
+                    <li class="list-unlysted p-2"><a href="#" class="nav-link">Advertising</a>
                     </li>
-                    <li class="list-unlysted p-2"><a href="#" class="nav-link   text-muted">Jobs</a></li>
+                    <li class="list-unlysted p-2"><a href="#" class="nav-link">Jobs</a></li>
                     <li class="list-unlysted p-2"><a href="#"
-                            class="nav-link disabled text-muted">Subscriptions</a></li>
-                    <li class="list-unlysted p-2"><a href="#" class="nav-link   text-muted">Talent
+                            class="nav-link disabled">Subscriptions</a></li>
+                    <li class="list-unlysted p-2"><a href="#" class="nav-link">Talent
                             Wotkshops</a></li>
-                    <li class="list-unlysted p-2"><a href="#" class="nav-link   text-muted">CPSC
+                    <li class="list-unlysted p-2"><a href="#" class="nav-link">CPSC
                             Certificates</a></li>
-                    <li class="list-unlysted p-2"><a href="#" class="nav-link   text-muted">Ratings</a>
+                    <li class="list-unlysted p-2"><a href="#" class="nav-link">Ratings</a>
                     </li>
-                    <li class="list-unlysted p-2"><a href="#" class="nav-link   text-muted">Shop Help</a>
+                    <li class="list-unlysted p-2"><a href="#" class="nav-link">Shop Help</a>
                     </li>
-                    <li class="list-unlysted p-2"><a href="#" class="nav-link   text-muted">Contact Us</a>
+                    <li class="list-unlysted p-2"><a href="#" class="nav-link">Contact Us</a>
                     </li>
                 </ul>
             </div>
             <div class="list-left d-flex flex-column">
                 <ul class="text-left d-flex flex-column">
                     <h4 class="text-white  p-2 text-left">SITES</h4>
-                    <li class="list-unlysted p-2"><a href="#" class="nav-link text-muted">DC</a></li>
-                    <li class="list-unlysted p-2"><a href="#" class="nav-link text-muted">MAD
+                    <li class="list-unlysted p-2"><a href="#" class="nav-link text-white">DC</a></li>
+                    <li class="list-unlysted p-2"><a href="#" class="nav-link text-white">MAD
                             Magazine</a></li>
-                    <li class="list-unlysted p-2"><a href="#" class="nav-link text-muted">DC Kids</a>
+                    <li class="list-unlysted p-2"><a href="#" class="nav-link text-white">DC Kids</a>
                     </li>
-                    <li class="list-unlysted p-2"><a href="#" class="nav-link text-muted">DC Universe</a>
+                    <li class="list-unlysted p-2"><a href="#" class="nav-link text-white">DC Universe</a>
                     </li>
-                    <li class="list-unlysted p-2"><a href="#" class="nav-link text-muted">DC Power
+                    <li class="list-unlysted p-2"><a href="#" class="nav-link text-white">DC Power
                             Visa</a></li>
                 </ul>
             </div>
