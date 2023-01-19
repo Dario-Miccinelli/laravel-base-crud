@@ -104,6 +104,11 @@ header input {
     background-color: #1c1c1c;
 }
 
+#main div {
+    width: calc(100% / 5);
+   
+}
+
 .button {
     display: flex;
     justify-content: center;

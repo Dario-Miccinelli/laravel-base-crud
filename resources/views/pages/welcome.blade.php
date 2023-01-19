@@ -4,21 +4,23 @@
 
 
 @section('components.currseries')
+<a href="/comics">
+    <button class="btn-blue btn-position bigger">LOAD CURRENT SERIES</button>
+</a>
 
-<button class="btn-blue btn-position bigger">CURRENT SERIES</button>
 
 @endsection
 
 
 @section('mainpage-main')
-<div id="main">
-<section class="main-series m-auto w-75">
+<div id="main" class="w-100">
+<section class="main-series m-auto w-100">
 
-    <h1 class="text-white">contenuto</h1>
+
 
 </section>
 <div class="button">
-<button class="btn-blue">LOAD MORE</button>
+
 
 
 </div>

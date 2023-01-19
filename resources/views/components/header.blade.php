@@ -11,8 +11,8 @@
     <img src="images/dc-logo.png" alt="">
 
     <ul class="mt-4">
-        <li class="comics "><a href="comics">COMICS</a></li>
-        <li class="comics "><a href="comics/create">CREATE COMICS</a></li>
+        <li class="comics "><a href="{{route ('home') }}">COMICS</a></li>
+        <li class="comics "><a href="{{route('comics.create')}}">CREATE COMICS</a></li>
         <li>MOVIES</li>
         <li>TV</li>
         <li>GAMES</li>
