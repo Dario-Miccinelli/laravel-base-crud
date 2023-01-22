@@ -14,22 +14,27 @@
 <div id="main">
 <section class="main-series">
 @foreach ($comics as $elem)
-<div>
+<div class="">
 
     <img src="{{$elem['thumb']}}">
-    <p>{{$elem['series']}}</p>
+    <p class="w-75 pt-2">{{$elem['title']}}</p>
 
     {{-- form delete --}}
+    <div class="d-flex flex-wrap w-50">
     <form action="{{route('comics.destroy', $elem->id)}}" method="POST">
     @csrf
     @method('DELETE')
 
-    <button class="btn btn-dark w-50" type="submit">
+    <button class="btn btn-dark  d-flex" type="submit">
         <i class="fa-solid fa-xmark"></i>
     </button>
-
-
     </form>
+
+        <a href="{{route('comics.edit', $elem->id)}}">
+            <i class="fa-solid fa-pen btn btn-dark"></i>
+        </a>
+
+    </div>
 
 </div>
 @endforeach
