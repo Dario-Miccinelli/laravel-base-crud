@@ -19,6 +19,18 @@
     <img src="{{$elem['thumb']}}">
     <p>{{$elem['series']}}</p>
 
+    {{-- form delete --}}
+    <form action="{{route('comics.destroy', $elem->id)}}" method="POST">
+    @csrf
+    @method('DELETE')
+
+    <button class="btn btn-dark w-50" type="submit">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+
+    </form>
+
 </div>
 @endforeach
 </section>
